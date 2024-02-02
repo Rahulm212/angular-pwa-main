@@ -1,0 +1,25 @@
+<div *ngIf="users">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4" *ngFor="let user of users">
+          <div class="card mb-3">
+            <!-- Assuming you have a profile picture URL in user.profilePicture -->
+            <div class="d-flex justify-content-center align-items-center">
+              <img *ngIf="user.profilePicture" [src]="user.profilePicture" alt="Profile Picture" class="card-img-top profile-picture">
+            </div>
+  
+            <div class="card-body text-center">
+              <h5 class="card-title">{{ user.name }}</h5>
+              <p class="card-text">{{ user.email }}</p>
+              <!-- Add other profile details as needed -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div *ngIf="!users">
+    <p>Loading user data...</p>
+  </div>
+  

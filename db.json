@@ -1,0 +1,11 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Rahul Mahale",
+        "email": "rahul@example.com",
+        "profilePicture": "assets/images/profile.jpg"
+      }
+    ]
+  }
+  
