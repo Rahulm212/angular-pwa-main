@@ -1,4 +1,5 @@
 Angular PWA Project
+
 This Angular project is a Progressive Web App (PWA) that includes a home page, user profile page, and offline functionality. The app utilizes caching to ensure seamless user experience even without an internet connection.
 
 Features
